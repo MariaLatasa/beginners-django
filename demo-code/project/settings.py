@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap4',
     'relecloud.apps.RelecloudConfig',
+    'whitenoise.runserver_nostatic'
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -139,4 +140,4 @@ STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CSRF_TRUSTED_ORIGINS = ['https://127.0.0.1', 'https://ant-space-tours-ml.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://ant-space-tours-ml.azurewebsites.net']
