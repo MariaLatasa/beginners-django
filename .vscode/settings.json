@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5ce33e4a-002f-4a5a-ab02-9f243bc831fa/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/marialatasa-django",
+    "appService.deploySubpath": "."
+}
